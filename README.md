@@ -14,13 +14,11 @@ I came to Touchdesigner from timeline-based video editing in programs like iMovi
 
 I liked the scene creation features of Magic Music Visualizer, though these too were quirky. As primarily an audio artist, I wanted a quick way to render content I was creating in Touchdesigner. Out of the box, Touchdesigner didn't have anything that checked the boxes for me, so I decided to build something.
 
-As I dove deeper into Touchdesigner during a 6-month intensive study under lockdown, I realized that:
+As I dove deeper into Touchdesigner during a 6-month intensive study under lockdown, I realized that I could mostly replace iMove or similar tools. I probably wouldn't go back to Magic (though I still think it's a brilliant program, and I still liked the scene creation/logic features.
 
-  a) I could mostly replace iMove or similar tools.
-  b) I probably wouldn't go back to Magic (though I still think it's a briliant program, and I still liked the scene creation/logic features.
-  c) Of course, all of these tools could still be used in various combinations depending on the creative need, but I was looking for a “one stop shop”.
+Of course, all of these tools could still be used in various combinations depending on the creative need, but I was looking for a “one stop shop”.
 
-Thus my work began, in January 2021, on what I would call the “Render Engine”, specifically to solve certain problems I had for content development. By March 2021 I had a working proof of concept, and opened up testing with a fellow audio artist (Breakfast). By working on visual content for him, I was able to refine the tool further.
+Thus my work began, in January 2021, on what I would call the “Render Engine”, specifically to solve certain problems I was encountering for content development. By March 2021 I had a working proof of concept, and opened up testing with a fellow audio artist (Breakfast). By working on visual content for him, I was able to refine the tool further.
 
 If you like this tool, then buy me a coffee:
 https://www.buymeacoffee.com/jeremydeprisco
@@ -31,10 +29,11 @@ The primary use case for my Render Engine is for an audio artist who has a piece
 
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle.
 
-A Note about Audio Reactivity
-This tool is NOT for audio reactivity. There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. Each piece of audio is different. As the artist will find, audio reactivity is *very* program dependent. A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
+A Note about Audio Reactivity!
+This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. Each piece of audio is different. As the artist will find, audio reactivity is *very* program dependent. A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
 Features:
+
 What the Render Engine IS about is easy reproducible rendering of a project. You should only come to the Render Engine after you have:
 
   1. Complete audio track
@@ -69,7 +68,13 @@ https://www.buymeacoffee.com/jeremydeprisco
 
 Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release. If you'd like to collaborate on this project, then feel free to get in touch as well.
 
+Version Details:
+Current released version 1.0
 This tool was built on the non-commercial version of Touchdesigner
-
 Latest version compatible: 
 2021.11180 on Mac on High Sierra
+
+Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
+
+I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
+https://www.zapstudio.net/framecalc/
