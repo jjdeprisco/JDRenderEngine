@@ -25,9 +25,9 @@ https://www.buymeacoffee.com/jeremydeprisco
 
 ## Primary Use Case:
 
-The primary use case for my Render Engine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere.
+The primary use case for my Render Engine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere. The JDRender Engine is mostly geared toward the generation of a final file from *generative* content that you've already programmed elsewhere, but want to present in some scene-based format.
 
-I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle.
+I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle. almost every tool that I came across assumed that the user wanted to work with pre-rendered content. And while you can still do that here, that is not the focus.
 
 A Note about Audio Reactivity!
 This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. It's easy to tap off the audio coming in to run through whatever reactive tools you like to use (see AudReact CHOP).
@@ -70,14 +70,15 @@ See the example render MOV. I had to doengrade it to 480p for Github, but otherw
 
 ## Enhancements:
 
-	If you would like to see enhancements to this tool, then buy me a coffee:
+If you would like to see enhancements to this tool, then buy me a coffee:
 
-	https://www.buymeacoffee.com/jeremydeprisco
+https://www.buymeacoffee.com/jeremydeprisco
 
-	Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release.
-	If you'd like to collaborate on this project, then feel free to get in touch as well.
+Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release.
+If you'd like to collaborate on this project, then feel free to get in touch as well.
 
 ## Version Details:
+
 Current released version 1.0
 This tool was built on the non-commercial version of Touchdesigner
 Latest version compatible: 
@@ -96,4 +97,18 @@ GNU General Public License v3 (GPL-3)
 
 This means that if at some point you would like to use this tool in a commercial endeavour or you do not want to disclose the source code you will get in touch first, so a fair arrangement can be made.
 
-///////////////////////////////////////////////
+## Thanks for visiting!
+
+You can learn more about my other projects here:
+
+Music:
+https://jeremydeprisco.bandcamp.com/
+
+https://www.jeremydeprisco.net/
+
+Other stuff:
+https://www.jeremydeprisco.com/
+
+Contact:
+https://twitter.com/jeremydeprisco
+https://www.jeremydeprisco.net/contact
