@@ -27,6 +27,15 @@ Primary Use Case:
 
 The primary use case for my Render Engine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere.
 
+LICENSING:
+Since we are artists/programmers and not lawyers, I trust you will give credit where credit is due and respect the licence:
+
+GNU General Public License v3 (GPL-3)
+
+This means that if at some point you would like to use this tool in a commercial endeavour or you do not want to disclose the source code you will get in touch first, so a fair arrangement can be made.
+
+///////////////////////////////////////////////
+
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle.
 
 A Note about Audio Reactivity!
