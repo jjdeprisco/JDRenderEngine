@@ -25,7 +25,7 @@ https://www.buymeacoffee.com/jeremydeprisco
 
 ## Primary Use Case:
 
-The primary use case for my Render Engine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere. The JDRender Engine is mostly geared toward the generation of a final file from *generative* content that you've already programmed elsewhere, but want to present in some scene-based format.
+The primary use case for the JDRenderEngine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere. The JDRender Engine is mostly geared toward the generation of a final file from *generative* content that you've already programmed elsewhere, but want to present in some scene-based format.
 
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle. almost every tool that I came across assumed that the user wanted to work with pre-rendered content. And while you can still do that here, that is not the focus.
 
@@ -36,16 +36,18 @@ As the artist will find, audio reactivity is *very* program dependent because pi
 
 ## Features:
 
-What the Render Engine IS about is easy reproducible rendering of a project. You should only come to the Render Engine after you have:
+What the JDRenderEngine IS about is easy reproducible rendering of a project. You should only come to the JDRenderEngine after you have:
 
   1. Complete audio track
   2. Timings for your scene changes
   3. Visual content prepared elsewhere (other Touchdesigner project output or generative components)
   4. Intro and outro content (title slide, credits, etc)
 
-The Render Engine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking. So in that sense, it is more of a utility. But as a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
+The JDRenderEngine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking. So in that sense, it is more of a utility. But as a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
 
 Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
+
+Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
 
 ## How to use:
 
@@ -68,9 +70,11 @@ The panic button (Key 2) is critical because your timing may not be correct at f
 
 See the example render MOV. I had to doengrade it to 480p for Github, but otherwise this is a good start.
 
+{Link to Youtube will go here}
+
 ## Enhancements:
 
-If you would like to see enhancements to this tool, then buy me a coffee:
+If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
@@ -95,7 +99,7 @@ Since we are artists/programmers and not lawyers, I trust you will give credit w
 
 GNU General Public License v3 (GPL-3)
 
-This means that if at some point you would like to use this tool in a commercial endeavour or you do not want to disclose the source code you will get in touch first, so a fair arrangement can be made.
+This means that if at some point you would like to use this tool in a commercial endeavour or you do not want to disclose the source code you will get in touch first, so a fair arrangement can be made. Contact info below.
 
 ## Thanks for visiting!
 
