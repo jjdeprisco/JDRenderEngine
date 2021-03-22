@@ -70,11 +70,12 @@ See the example render MOV. I had to doengrade it to 480p for Github, but otherw
 
 Enhancements:
 
-If you like this tool, then buy me a coffee:
+If you would like to see enhancements to this tool, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
-Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release. If you'd like to collaborate on this project, then feel free to get in touch as well.
+Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release.
+If you'd like to collaborate on this project, then feel free to get in touch as well.
 
 Version Details:
 Current released version 1.0
@@ -83,6 +84,7 @@ Latest version compatible:
 2021.11180 on Mac on High Sierra
 
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
+The OP Snippet for series segment timing was used, but a lot more work was done before I even discovered that example.
 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
