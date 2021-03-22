@@ -14,7 +14,7 @@ I came to Touchdesigner from timeline-based video editing in programs like iMovi
 
 I liked the scene creation features of Magic Music Visualizer, though these too were quirky. As primarily an audio artist, I wanted a quick way to render content I was creating in Touchdesigner. Out of the box, Touchdesigner didn't have anything that checked the boxes for me, so I decided to build something.
 
-As I dove deeper into Touchdesigner during a 6-month intensive study under lockdown, I realized that I could mostly replace iMove or similar tools. I probably wouldn't go back to Magic (though I still think it's a brilliant program, and I still liked the scene creation/logic features.
+As I dove deeper into Touchdesigner during a 6-month intensive study under lockdown, I realized that I could mostly replace iMovie or similar tools. I probably wouldn't go back to Magic (though I still think it's a brilliant program, and I still liked the scene creation/logic features.
 
 Of course, all of these tools could still be used in various combinations depending on the creative need, but I was looking for a “one stop shop”.
 
