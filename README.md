@@ -30,7 +30,9 @@ The primary use case for my Render Engine is for an audio artist who has a piece
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle.
 
 A Note about Audio Reactivity!
-This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. Each piece of audio is different. As the artist will find, audio reactivity is *very* program dependent. A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
+This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. It's easy to tap off the audio coming in to run through whatever reactive tools you like to use (see AudReact CHOP).
+
+As the artist will find, audio reactivity is *very* program dependent because piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
 Features:
 
@@ -43,22 +45,28 @@ What the Render Engine IS about is easy reproducible rendering of a project. You
 
 The Render Engine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking. So in that sense, it is more of a utility. But as a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
 
+Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
+
 How to use:
 
 Before you continue, please not that what I call a "Scene" here is any separate piece of content. If you want to use one Scene that has within it a bunch of evolving changes, you can do that. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
 I've started with 12 scenes because for the material I was creating (songs 3-4 min long) that seemed to be more than enough. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
-1. Select your audio file from the audiofileIN CHOP
-2. Replace the Scene placeholders with your content
-3. Set your scene time transitions in the table provided
-4. Set any additional time in the addtime Math CHOP
-5. Use Keyboard 2 key to reset all of the scripts.
-6. Use Keyboard 1
+1. Select your audio file from the RENDERAUDIO CHOP - note that I've provided the option of switching to a test file for testing without rendering. But the render process relies on the file in the RENDERAUDIO CHOP
+3. Replace the Scene placeholders with your content
+4. Set your scene time transitions in the table provided
+5. Set any additional time in the addtime Math CHOP. Default is 300 frames (5 sec) for intro, and 300 frames for outro, totalling 600 frames.
+6. Locate the scenepreview node and set it to view (handy for previewing on a second monitor to watch your render).
+7. Use Keyboard 2 key to reset all of the scripts.
+8. Use Keyboard 1
+9. Watch your render take place!
 
 I usually like to set the preview output to full screen on another monitor while I render.
 
 The panic button (Key 2) is critical because your timing may not be correct at first. Rather than waiting for the entire thing to render, you can stop as soon as you notice an issue, tweak the results, and then start the render again. This is the main thing missing when you render in iMovie and similar programs.
+
+See the example render MOV. I had to doengrade it to 480p for Github, but otherwise this is a good start.
 
 Enhancements:
 
