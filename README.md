@@ -8,7 +8,7 @@ If you like this tool, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
-##Background:
+## Background:
 	
 I came to Touchdesigner from timeline-based video editing in programs like iMovie, Adobe Premiere and Davinci Resolve. For a few years I also built patches in Magic Music Visualizer. I was always frustrated by the UI of iMovie and similar programs. I never found their UX very good coming from the audio world. I also disliked how they managed project data, creating a whole new project with every iteration of a piece.
 
@@ -23,7 +23,7 @@ Thus my work began, in January 2021, on what I would call the â€œRender Engineâ€
 If you like this tool, then buy me a coffee:
 https://www.buymeacoffee.com/jeremydeprisco
 
-##Primary Use Case:
+## Primary Use Case:
 
 The primary use case for my Render Engine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere.
 
@@ -34,7 +34,7 @@ This tool is NOT for audio reactivity! There are dozens of audio reactivity appr
 
 As the artist will find, audio reactivity is *very* program dependent because piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
-##Features:
+## Features:
 
 What the Render Engine IS about is easy reproducible rendering of a project. You should only come to the Render Engine after you have:
 
@@ -47,7 +47,7 @@ The Render Engine is designed for quick generation of a completed piece after yo
 
 Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
 
-##How to use:
+## How to use:
 
 Before you continue, please not that what I call a "Scene" here is any separate piece of content. If you want to use one Scene that has within it a bunch of evolving changes, you can do that. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
@@ -68,7 +68,7 @@ The panic button (Key 2) is critical because your timing may not be correct at f
 
 See the example render MOV. I had to doengrade it to 480p for Github, but otherwise this is a good start.
 
-##Enhancements:
+## Enhancements:
 
 	If you would like to see enhancements to this tool, then buy me a coffee:
 
@@ -77,7 +77,7 @@ See the example render MOV. I had to doengrade it to 480p for Github, but otherw
 	Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release.
 	If you'd like to collaborate on this project, then feel free to get in touch as well.
 
-##Version Details:
+## Version Details:
 Current released version 1.0
 This tool was built on the non-commercial version of Touchdesigner
 Latest version compatible: 
@@ -89,7 +89,7 @@ The OP Snippet for series segment timing was used, but a lot more work was done 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
 
-##LICENSING:
+## LICENSING:
 Since we are artists/programmers and not lawyers, I trust you will give credit where credit is due and respect the licence:
 
 GNU General Public License v3 (GPL-3)
