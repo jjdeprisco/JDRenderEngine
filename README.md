@@ -1,7 +1,7 @@
 # JDRenderEngine
 Touchdesigner Render Engine by Jeremy dePrisco
 
-##Purpose:
+## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
 If you like this tool, then buy me a coffee:
