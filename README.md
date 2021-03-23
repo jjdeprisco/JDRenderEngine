@@ -113,7 +113,9 @@ If you'd like to collaborate on this project, then feel free to get in touch as 
 ## Version Details:
 
 Current released version 1.0
+
 This tool was built on the non-commercial version of Touchdesigner
+
 Latest version compatible: 
 2021.11180 on Mac on High Sierra
 
