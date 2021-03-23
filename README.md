@@ -37,29 +37,21 @@ As the artist will find, audio reactivity is *very* program dependent because pi
 The JDRenderEngine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking.
 JDRenderEngine is really a utility that allows you to quickly audition changes as you render a project, stop if you don't like what you see, and quickly make adjustments. As a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
 
-## What you need:
-
-With proper setup, the JDRenderEngine will produce reproducible rendering of a project. You should only come to the JDRenderEngine after you have:
-
-  1. Complete audio track
-  2. Timings for your scene changes (if any)
-  3. Visual content prepared elsewhere. This can be other Touchdesigner project output or generative components saved as their own containers.
-  4. Intro and outro content (title slide, credits, etc.
-
 ## Features:
 
 1. Single-key render (after you've done some setup).
 2. Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
 3. Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
 4. Scene time caluclations are handled by scripts.
-5. Everything is *independent* of the Touchdesigner timeline.
+5. Options for running test audio without rendering.
+6. Everything is *independent* of the Touchdesigner timeline.
 
 
 ## How to use:
 
-Before you continue, please not that what I call a "Scene" here is any separate piece of content. If you want to use one Scene that has within it a bunch of evolving changes, you can do that. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
+Before you continue, please note that what I call a "Scene" here is any separate piece of content. A single Scene can have within it a bunch of evolving changes. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
-I've started with 12 scenes because for the material I was creating (songs 3-4 min long) that seemed to be more than enough. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
+I've started with 12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
 By default, I've set Scene 1 as a title slide, which runs for 300 frames (5 sec) with no music.
 Music starts on Scene 2.
@@ -68,14 +60,26 @@ Scene 11 is a blackout slide, hardcoded for 1 sec.
 
 All of these parameters can be changed, but there is no UI yet to do so. See enhancements below.
 
-1. Select your audio file from the RENDERAUDIO CHOP - note that I've provided the option of switching to a test file for testing without rendering. But the render process relies on the file in the RENDERAUDIO CHOP
-3. Replace the Scene placeholders with your content
-4. Set your scene time transitions in the table provided
-5. Set any additional time in the addtime Math CHOP. Default is 300 frames (5 sec) for intro, and 300 frames for outro, totalling 600 frames.
-6. Locate the scenepreview node and set it to view (handy for previewing on a second monitor to watch your render).
-7. Use Keyboard 2 key to reset all of the scripts.
-8. Use Keyboard 1
-9. Watch your render take place!
+## Getting Started
+
+With proper setup, the JDRenderEngine will produce reproducible rendering of a project. You should only come to the JDRenderEngine after you have:
+
+  1. Complete audio track
+  2. Timings for your scene changes (if any)
+  3. Visual content prepared elsewhere. This can be other Touchdesigner project output or generative components saved as their own containers.
+  4. Intro and outro content (title slide, credits, etc.
+  
+  Set up your project:
+
+1. Select your audio file from the RENDERAUDIO node. Note the length of your original audio file.
+2. Replace the Scene placeholders with your content
+3. Set any additional time for intro/outro in the addtime Math CHOP. Default is 300 frames (5 sec) for intro, and 300 frames for outro, totalling 600 frames.
+4. Set your scene time transitions in the "minsec" table provided. All the other tables are caluclated.
+5. Locate the scenepreview node and set it to view (handy for previewing on a second monitor to watch your render).
+6. Use Keyboard 2 key to reset all of the scripts.
+7. Use Keyboard 1
+8. Watch your render take place!
+9. Use keyboard key to STOP before end of song, or allow render to finish until end (it will auto stop).
 
 I usually like to set the preview output to full screen on another monitor while I render.
 
@@ -87,7 +91,7 @@ See the example render MOV. I had to doengrade it to 480p for Github, but otherw
 
 ## Enhancements:
 
-If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
+I already have a list of possible enhancements. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
