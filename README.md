@@ -68,6 +68,7 @@ A "Scene" is any separate piece of content that you want to appear at a specific
 I've started with 10-12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
 Scene defaults:
+Scene 0 is not used, except as a Constant TOP set to black. Actual scene content begins at 1, not 0.
 Scene 1 is a title slide, which runs for 300 frames (5 sec) with no music.
 Scene 2 music starts
 Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
