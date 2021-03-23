@@ -1,6 +1,15 @@
 # JDRenderEngine
 Touchdesigner Render Engine by Jeremy dePrisco
 
+Intro video here:
+https://youtu.be/zD9IgoFOWsg
+
+Example #1 (Static Scenes)
+https://youtu.be/yj0T0lFZFjM
+
+Example #2 (Dynamic Scenes)
+https://youtu.be/e9p1JZSkeGc
+
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
@@ -49,7 +58,9 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 
 ## How to use:
 
-Before you continue, please note that what I call a "Scene" here is any separate piece of content. A single Scene can have within it a bunch of evolving changes. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
+Download the TOX and WAV file first so you can run the examples. Then move on with your own content.
+
+What I call a "Scene" here is any separate piece of content. A single Scene can have within it a bunch of evolving changes. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
 I've started with 12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
@@ -88,9 +99,7 @@ The panic button (Key 2) is critical because your timing may not be correct at f
 *Alternate workflow*
 If you don't want to render the file, add your audio to the TestAudio node and use the supplied switch to use that pathway instead. This will allow the audio to loop so you can just work on the visuals. Change the switch back when you want to render, then follow the above steps.
 
-See the example render MOV. I had to doengrade it to 480p for Github, but otherwise this is a good start.
-
-{Link to Youtube will go here}
+See the example render MOV. I had to downgrade it to 480p for Github, but otherwise this is a good start.
 
 ## Enhancements:
 
