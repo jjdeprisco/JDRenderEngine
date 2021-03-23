@@ -30,7 +30,7 @@ The primary use case for the JDRenderEngine is for an audio artist who has a pie
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle. almost every tool that I came across assumed that the user wanted to work with pre-rendered content. And while you can still do that here, that is not the focus.
 
 A Note about Audio Reactivity!
-This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. It's easy to tap off the audio coming in to run through whatever reactive tools you like to use (see AudReact CHOP).
+This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. It's easy to tap off the audio coming in to run through whatever reactive tools you like to use (see the ForReact Null CHOP).
 
 As the artist will find, audio reactivity is *very* program dependent because piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
@@ -54,6 +54,13 @@ Crucially, I provided a "panic button" so you can stop and re-render easily. Lot
 Before you continue, please not that what I call a "Scene" here is any separate piece of content. If you want to use one Scene that has within it a bunch of evolving changes, you can do that. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
 I've started with 12 scenes because for the material I was creating (songs 3-4 min long) that seemed to be more than enough. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
+
+By default, I've set Scene 1 as a title slide, which runs for 300 frames (5 sec) with no music.
+Music starts on Scene 2.
+Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
+Scene 11 is a blackout slide, hardcoded for 1 sec.
+
+All of these parameters can be changed, but there is no UI yet to do so. See enhancements below.
 
 1. Select your audio file from the RENDERAUDIO CHOP - note that I've provided the option of switching to a test file for testing without rendering. But the render process relies on the file in the RENDERAUDIO CHOP
 3. Replace the Scene placeholders with your content
@@ -116,3 +123,12 @@ https://www.jeremydeprisco.com/
 Contact:
 https://twitter.com/jeremydeprisco
 https://www.jeremydeprisco.net/contact
+
+LinkedIn:
+https://www.linkedin.com/in/jjdeprisco/
+
+Indeed:
+https://my.indeed.com/p/jeremyd-180u8qq
+
+Fiverr:
+https://www.fiverr.com/shivasongster?up_rollout=true
