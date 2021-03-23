@@ -112,6 +112,17 @@ https://youtu.be/yj0T0lFZFjM
 Example #2 (Dynamic Scenes)
 https://youtu.be/e9p1JZSkeGc
 
+## Pictures
+
+This is where most of the timing setup is done (manual entry). Preview screen shown here as well.
+
+![rendersetup](https://user-images.githubusercontent.com/35905062/112192211-26356980-8bdd-11eb-9ed2-c86f1c10426a.png)
+
+This is where you would add your own content. Scene placeholders for demo only.
+
+<img width="968" alt="addcontent" src="https://user-images.githubusercontent.com/35905062/112192464-567d0800-8bdd-11eb-9271-9bdfc54b2043.png">
+
+
 ## Enhancements:
 
 I already have a list of possible enhancements. For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
