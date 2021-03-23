@@ -1,14 +1,9 @@
-# Before 1.0 release:
-  Add custom component labels
-  Containerize some things if possible.
-  Clean out unused items
-  Upload Youtube example
-  Link readme to example on Youtube
-
-# Enhancements:
+## Enhancements:
   Add more documentation on how to use the timer display.
-  Containerize some more
+  Add flexibility to sene blending/transition settings.
+  Containerize some of the more complex stuff to tuck it out of the way
   Reduce 2 timers to 1
-  Add per-scene FX pathway
+  Add per-scene PRE-FX pathway (this would be *in addition to* the current PostFX setup)
   Add UI for variables for easier usage.
   
+  If you like this tool, and would like to see it expanded, then please buy me a coffee: https://www.buymeacoffee.com/jeremydeprisco
