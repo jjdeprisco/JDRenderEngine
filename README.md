@@ -1,4 +1,7 @@
 # JDRenderEngine
+
+![RenderEngineGraphic](https://user-images.githubusercontent.com/35905062/112176656-aaccbb80-8bce-11eb-9be5-ce36175864b9.png)
+
 Touchdesigner Render Engine by Jeremy dePrisco
 
 Intro video here:
