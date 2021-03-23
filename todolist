@@ -1,16 +1,14 @@
-Before 1.0 release:
+# Before 1.0 release:
   Add custom component labels
   Containerize some things if possible.
   Clean out unused items
   Upload Youtube example
   Link readme to example on Youtube
 
-Enhacnements:
+# Enhancements:
   Add more documentation on how to use the timer display.
   Containerize some more
   Reduce 2 timers to 1
   Add per-scene FX pathway
+  Add UI for variables for easier usage.
   
-
-
-
