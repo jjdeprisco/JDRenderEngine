@@ -44,8 +44,8 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 3. Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
 4. Scene time caluclations are handled by scripts.
 5. Options for running test audio without rendering.
-6. Everything is *independent* of the Touchdesigner timeline.
-
+6. Optional post FX section that can be controlled per scene.
+7. Everything is *independent* of the Touchdesigner timeline.
 
 ## How to use:
 
@@ -73,7 +73,7 @@ With proper setup, the JDRenderEngine will produce reproducible rendering of a p
 
 1. Select your audio file from the RENDERAUDIO node. Note the length of your original audio file.
 2. Replace the Scene placeholders with your content
-3. Set any additional time for intro/outro in the addtime Math CHOP. Default is 300 frames (5 sec) for intro, and 300 frames for outro, totalling 600 frames.
+3. Set any additional time for intro/outro in the "addtime" Math CHOP. Default is 300 frames (5 sec) for intro, and 300 frames for outro, totalling 600 frames.
 4. Set your scene time transitions in the "minsec" table provided. All the other tables are caluclated.
 5. Locate the scenepreview node and set it to view (handy for previewing on a second monitor to watch your render).
 6. Use Keyboard 2 key to reset all of the scripts.
@@ -106,7 +106,7 @@ Latest version compatible:
 2021.11180 on Mac on High Sierra
 
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
-The OP Snippet for series segment timing was used, but a lot more work was done before I even discovered that example.
+The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example.
 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
