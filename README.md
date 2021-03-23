@@ -13,9 +13,6 @@ https://youtu.be/e9p1JZSkeGc
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
-If you like this tool, then buy me a coffee:
-
-https://www.buymeacoffee.com/jeremydeprisco
 
 ## Background:
 	
