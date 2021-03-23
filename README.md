@@ -119,11 +119,14 @@ This tool was built on the non-commercial version of Touchdesigner
 Latest version compatible: 
 2021.11180 on Mac on High Sierra
 
+## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
 The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example.
 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
+
+The JDRenderEngine graphic was made with Adobe Spark.
 
 ## LICENSING:
 Since we are artists/programmers and not lawyers, I trust you will give credit where credit is due and respect the licence:
