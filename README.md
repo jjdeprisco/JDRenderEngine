@@ -60,7 +60,7 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 
 Download the TOX and WAV file first so you can run the examples. Then move on with your own content.
 
-What I call a "Scene" here is any separate piece of content. A single Scene can have within it a bunch of evolving changes. If you want to transition from one piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
+What I call a "Scene" here is any separate piece of content. A single Scene can of course contain many different things, like generative content. If you want to transition from one static piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
 
 I've started with 12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
@@ -103,7 +103,7 @@ See the example render MOV. I had to downgrade it to 480p for Github, but otherw
 
 ## Enhancements:
 
-I already have a list of possible enhancements. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
+I already have a list of possible enhancements. For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
@@ -112,7 +112,7 @@ If you'd like to collaborate on this project, then feel free to get in touch as 
 
 ## Version Details:
 
-Current released version 1.0
+Current released version 1.0 - March 2021
 
 This tool was built on the non-commercial version of Touchdesigner
 
