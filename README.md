@@ -58,7 +58,7 @@ Music starts on Scene 2.
 Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
 Scene 11 is a blackout slide, hardcoded for 1 sec.
 
-All of these parameters can be changed, but there is no UI yet to do so. See enhancements below.
+All of these parameters can be changed, but there is no UI yet to do so.
 
 ## Getting Started
 
@@ -84,6 +84,9 @@ With proper setup, the JDRenderEngine will produce reproducible rendering of a p
 I usually like to set the preview output to full screen on another monitor while I render.
 
 The panic button (Key 2) is critical because your timing may not be correct at first. Rather than waiting for the entire thing to render, you can stop as soon as you notice an issue, tweak the results, and then start the render again. This is the main thing missing when you render in iMovie and similar programs.
+
+*Alternate workflow*
+If you don't want to render the file, add your audio to the TestAudio node and use the supplied switch to use that pathway instead. This will allow the audio to loop so you can just work on the visuals. Change the switch back when you want to render, then follow the above steps.
 
 See the example render MOV. I had to doengrade it to 480p for Github, but otherwise this is a good start.
 
