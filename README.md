@@ -34,20 +34,26 @@ This tool is NOT for audio reactivity! There are dozens of audio reactivity appr
 
 As the artist will find, audio reactivity is *very* program dependent because piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
-## Features:
+The JDRenderEngine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking.
+JDRenderEngine is really a utility that allows you to quickly audition changes as you render a project, stop if you don't like what you see, and quickly make adjustments. As a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
 
-What the JDRenderEngine IS about is easy reproducible rendering of a project. You should only come to the JDRenderEngine after you have:
+## What you need:
+
+With proper setup, the JDRenderEngine will produce reproducible rendering of a project. You should only come to the JDRenderEngine after you have:
 
   1. Complete audio track
-  2. Timings for your scene changes
-  3. Visual content prepared elsewhere (other Touchdesigner project output or generative components)
-  4. Intro and outro content (title slide, credits, etc)
+  2. Timings for your scene changes (if any)
+  3. Visual content prepared elsewhere. This can be other Touchdesigner project output or generative components saved as their own containers.
+  4. Intro and outro content (title slide, credits, etc.
 
-The JDRenderEngine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking. So in that sense, it is more of a utility. But as a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
+## Features:
 
-Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
+1. Single-key render (after you've done some setup).
+2. Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
+3. Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
+4. Scene time caluclations are handled by scripts.
+5. Everything is *independent* of the Touchdesigner timeline.
 
-Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
 
 ## How to use:
 
