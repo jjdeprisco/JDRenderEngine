@@ -95,6 +95,7 @@ With proper setup, the JDRenderEngine will produce reproducible rendering of a p
 7. Use Keyboard 1 to start the render process.
 8. Watch your render take place!
 9. Use Keyboard 2 key to STOP before end of song, or allow render to finish until end (it will auto stop).
+10. Output files appear in the same folder as the project file.
 
 I usually like to set the preview output to full screen on another monitor while I render.
 
