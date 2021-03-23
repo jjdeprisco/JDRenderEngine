@@ -52,20 +52,24 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 2. Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
 3. Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
 4. Scene time caluclations are handled by scripts.
-5. Options for running test audio without rendering.
-6. Optional post FX section that can be controlled per scene.
+5. Options for running test audio in a loop without rendering.
+6. Optional post FX section that can be controlled per scene. By default this is turned off, and the default effect is Edge.
 7. Everything is *independent* of the Touchdesigner timeline.
 
 ## How to use:
 
+Watch the intro video here:
+https://youtu.be/zD9IgoFOWsg
+
 Download the TOX and WAV file first so you can run the examples. Then move on with your own content.
 
-What I call a "Scene" here is any separate piece of content. A single Scene can of course contain many different things, like generative content. If you want to transition from one static piece of content to another, you can do that as well. A Scene can hold your intro title slide, or your outro credits. It's up to you.
+A "Scene" is any separate piece of content that you want to appear at a specific time. A single Scene can of course contain many different objects, like generative content, stills, etc. If you want to transition from one static piece of content to another, you can do that as well. A Scene can hold your intro title slide, your outro credits, or a black out screen. It's up to you.
 
-I've started with 12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
+I've started with 10-12 scenes because I was creating material based on songs that were 3-4 minutes long. But the tool is scalable if you pay attention to the construction. I've tried to comment as much as possible within the scripts.
 
-By default, I've set Scene 1 as a title slide, which runs for 300 frames (5 sec) with no music.
-Music starts on Scene 2.
+Scene defaults:
+Scene 1 is a title slide, which runs for 300 frames (5 sec) with no music.
+Scene 2 music starts
 Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
 Scene 11 is a blackout slide, hardcoded for 1 sec.
 
@@ -88,18 +92,24 @@ With proper setup, the JDRenderEngine will produce reproducible rendering of a p
 4. Set your scene time transitions in the "minsec" table provided. All the other tables are caluclated.
 5. Locate the scenepreview node and set it to view (handy for previewing on a second monitor to watch your render).
 6. Use Keyboard 2 key to reset all of the scripts.
-7. Use Keyboard 1
+7. Use Keyboard 1 to start the render process.
 8. Watch your render take place!
-9. Use keyboard key to STOP before end of song, or allow render to finish until end (it will auto stop).
+9. Use Keyboard 2 key to STOP before end of song, or allow render to finish until end (it will auto stop).
 
 I usually like to set the preview output to full screen on another monitor while I render.
 
-The panic button (Key 2) is critical because your timing may not be correct at first. Rather than waiting for the entire thing to render, you can stop as soon as you notice an issue, tweak the results, and then start the render again. This is the main thing missing when you render in iMovie and similar programs.
+The panic button (Key 2) is critical because your timing may not be correct at first. Rather than waiting for the entire piece to render, you can stop as soon as you see an issue. Then you can tweak the results, reset (Keyboard Key 2) and start the render again (Keyboard Key 1). If you've ever rendered something in iMovie or Davinci, then you know that those tools only reveal issues after the entire file is rendered. Not so here!
 
 *Alternate workflow*
-If you don't want to render the file, add your audio to the TestAudio node and use the supplied switch to use that pathway instead. This will allow the audio to loop so you can just work on the visuals. Change the switch back when you want to render, then follow the above steps.
+If you don't want to render the file right away, add your audio to the TestAudio node and use the supplied switch to use that pathway instead. The TestAudio node is set to loop. This will allow the audio to loop so you can just work on the visuals, work out any audio reactivity you want to add (not included), etc. Change the switch back when you want to render, then follow the above steps.
 
-See the example render MOV. I had to downgrade it to 480p for Github, but otherwise this is a good start.
+See the example render MOV on Github. I had to downgrade it to 480p for Github, but otherwise this is a good start.
+
+Example #1 (Static Scenes)
+https://youtu.be/yj0T0lFZFjM
+
+Example #2 (Dynamic Scenes)
+https://youtu.be/e9p1JZSkeGc
 
 ## Enhancements:
 
