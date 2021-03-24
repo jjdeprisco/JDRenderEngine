@@ -162,6 +162,9 @@ The OP Snippet for series segment timing was used, but a lot more work was done 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
 
+Also, I still think Magic Music Visualizer is a great, affordable tool. Their support is also awesome. Here's the link to their site:
+https://magicmusicvisuals.com/
+
 The JDRenderEngine graphic was made with Adobe Spark.
 
 ## LICENSING:
