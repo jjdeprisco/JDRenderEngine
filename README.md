@@ -32,6 +32,12 @@ Thus my work began, in January 2021, on what I would call the â€œRender Engineâ€
 If you like this tool, then buy me a coffee:
 https://www.buymeacoffee.com/jeremydeprisco
 
+<img width="300" alt="bmc-button 600" src="https://user-images.githubusercontent.com/35905062/112360847-23a04600-8ca9-11eb-92cf-e6bc10ca64c8.png">
+
+[!https://user-images.githubusercontent.com/35905062/112360847-23a04600-8ca9-11eb-92cf-e6bc10ca64c8.png](https://www.buymeacoffee.com/jeremydeprisco)](https://www.buymeacoffee.com/jeremydeprisco)
+
+
+
 ## Primary Use Case:
 
 The primary use case for the JDRenderEngine is for an audio artist who has a piece of music/audio that they want to sync to visuals. Those visuals may be prepared within Touchdesigner or elsewhere. The JDRender Engine is mostly geared toward the generation of a final file from *generative* content that you've already programmed elsewhere, but want to present in some scene-based format.
