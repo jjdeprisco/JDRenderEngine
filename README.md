@@ -182,8 +182,10 @@ https://www.jeremydeprisco.net/
 Other stuff:
 https://www.jeremydeprisco.com/
 
-Contact:
+Twitter
 https://twitter.com/jeremydeprisco
+
+Contact:
 https://www.jeremydeprisco.net/contact
 
 LinkedIn:
