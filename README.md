@@ -1,3 +1,4 @@
+<img width="2437" alt="bmc-full logo" src="https://user-images.githubusercontent.com/35905062/112360634-e5a32200-8ca8-11eb-9c82-830ed4361e1f.png">
 # JDRenderEngine
 
 ![RenderEngineGraphic300](https://user-images.githubusercontent.com/35905062/112176853-d51e7900-8bce-11eb-8e5a-9acaad7f4fa3.png)
