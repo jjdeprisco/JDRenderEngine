@@ -32,10 +32,10 @@ Thus my work began, in January 2021, on what I would call the â€œRender Engineâ€
 If you like this tool, then buy me a coffee:
 https://www.buymeacoffee.com/jeremydeprisco
 
-<img width="300" alt="bmc-button 600" src="https://user-images.githubusercontent.com/35905062/112360847-23a04600-8ca9-11eb-92cf-e6bc10ca64c8.png">
 
 
-[![IMAGE ALT TEXT HERE](https://www.buymeacoffee.com/jeremydeprisco)](https://www.buymeacoffee.com/jeremydeprisco)
+
+[<img width="300" alt="bmc-button 600" src="https://user-images.githubusercontent.com/35905062/112360847-23a04600-8ca9-11eb-92cf-e6bc10ca64c8.png">](https://www.buymeacoffee.com/jeremydeprisco)](https://www.buymeacoffee.com/jeremydeprisco)
 
 
 ## Primary Use Case:
