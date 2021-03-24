@@ -132,9 +132,9 @@ This is where you would add your own content. Scene placeholders for demo only.
 I already have a list of possible enhancements:
 https://github.com/jjdeprisco/JDRenderEngine/blob/main/todolist
 
-For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
+For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee: https://www.buymeacoffee.com/jeremydeprisco
 
-https://www.buymeacoffee.com/jeremydeprisco
+[<img width="300" alt="bmc-button 600" src="https://user-images.githubusercontent.com/35905062/112360847-23a04600-8ca9-11eb-92cf-e6bc10ca64c8.png">](https://www.buymeacoffee.com/jeremydeprisco)
 
 Depending on interest, I will endeavor to expand this tool with some other ideas I've had while making the initial release.
 If you'd like to collaborate on this project, then feel free to get in touch as well.
