@@ -126,7 +126,10 @@ This is where you would add your own content. Scene placeholders for demo only.
 
 ## Enhancements:
 
-I already have a list of possible enhancements. For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
+I already have a list of possible enhancements:
+https://github.com/jjdeprisco/JDRenderEngine/blob/main/todolist
+
+For example, the fade times are mainly controlled by the blend settings of a single switch. I'd like to make that more flexible. If you would like to see enhancements to the JDRenderEngine, then buy me a coffee:
 
 https://www.buymeacoffee.com/jeremydeprisco
 
