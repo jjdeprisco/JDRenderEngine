@@ -13,6 +13,9 @@ https://youtu.be/yj0T0lFZFjM
 Example #2 (Dynamic Scenes)
 https://youtu.be/e9p1JZSkeGc
 
+Example #3 (Silly cats!!)
+https://youtu.be/_-jHfp5MnnQ
+
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
@@ -75,7 +78,7 @@ Scene 0 is not used, except as a Constant TOP set to black. Actual scene content
 Scene 1 is a title slide, which runs for 300 frames (5 sec) with no music.
 Scene 2 music starts
 Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
-Scene 11 is a blackout slide, hardcoded for 1 sec.
+Scene 11 is a blackout slide, usually hardcoded for 1 sec.
 
 All of these parameters can be changed, but there is no UI yet to do so.
 
@@ -115,6 +118,9 @@ https://youtu.be/yj0T0lFZFjM
 
 Example #2 (Dynamic Scenes)
 https://youtu.be/e9p1JZSkeGc
+
+Example #3 (Silly cats!!)
+https://youtu.be/_-jHfp5MnnQ
 
 ## Pictures
 
