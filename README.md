@@ -44,10 +44,11 @@ The primary use case for the JDRenderEngine is for an audio artist who has a pie
 
 I know what you are thinking... there are already numerous VJ and Movie Scene transition tools out there. Yes, there are. I've tried most of them, and found many to be brilliant in their own right. Many were also over (or under) built for what I needed, and some simply didn't approach the problem from the same angle. almost every tool that I came across assumed that the user wanted to work with pre-rendered content. And while you can still do that here, that is not the focus.
 
-A Note about Audio Reactivity!
-This tool is NOT for audio reactivity! There are dozens of audio reactivity approaches that one can use. I've explored most of the ones on YouTube. My goal is not to repeat that work here. It's easy to tap off the audio coming in to run through whatever reactive tools you like to use (see the ForReact Null CHOP).
+## Audio Reactivity:
+*This tool does not include an audio reactivity component.*
+There are dozens of audio reactivity approaches out there. I've explored most of the ones on YouTube and the Touchdesigner site. I've made a few of my own, and of course there's the audioAnalysis tool from the palette. My goal is not to repeat that work here. The JDRenderEngine can be used with an audio reactive component of your choice simply by tapping off the audio coming in (see the ForReact Null CHOP).
 
-As the artist will find, audio reactivity is *very* program dependent because piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
+As the artist will find, audio reactivity is *very* program dependent because each piece of audio is different.  A pulse/beat-driven audio reactive technique simply doesn't make sense for ambient music. If you want a more generative or random approach, then you might try different techniques. In my own work, I usually combine a beat-oriented approach with something that uses frequencies. But again, that material is covered elsewhere.
 
 The JDRenderEngine is designed for quick generation of a completed piece after you have done all the creative work on the audio and visuals to your liking.
 JDRenderEngine is really a utility that allows you to quickly audition changes as you render a project, stop if you don't like what you see, and quickly make adjustments. As a creative programmer and multimedia artist, I've always seen these sorts of utilities as creative tools that can be bent to the creator's will just as much as any other tool.
@@ -67,7 +68,7 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 Watch the intro video here:
 https://youtu.be/zD9IgoFOWsg
 
-Download the TOX and WAV file first so you can run the examples. Then move on with your own content.
+Download the TOX and WAV file first so you can run the examples. You will need the demo WAV file to get started, otherwise you will get an error on the audio file CHOP and the example won't line up. Once you've watched the example a few times, then move on with your own content.
 
 A "Scene" is any separate piece of content that you want to appear at a specific time. A single Scene can of course contain many different objects, like generative content, stills, etc. If you want to transition from one static piece of content to another, you can do that as well. A Scene can hold your intro title slide, your outro credits, or a black out screen. It's up to you.
 
