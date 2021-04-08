@@ -155,6 +155,14 @@ This tool was built on the non-commercial version of Touchdesigner
 Latest version compatible: 
 2021.11180 on Mac on High Sierra
 
+## Updates:
+V1.1
+- Made minor change to make sure Exec CHOP was active so that audio starts as OFF and no movie recording happens until triggered.
+- Added an additional line to the main script to make sure audio is turned off upon completion of render.
+
+Both of these changes were needed to prevent odd behavior if you closed/saved the project in the middle of rendering or otherwise interrupted rendering (by pressing space bar) and then saved and reopened. Kind of a niche issue, but worth fixing.
+
+
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
 The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example.
