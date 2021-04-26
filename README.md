@@ -16,6 +16,9 @@ https://youtu.be/e9p1JZSkeGc
 Example #3 (Silly cats!!)
 https://youtu.be/_-jHfp5MnnQ
 
+Yellowcake (album by Breakfast)
+https://www.jeremydeprisco.net/blog/yellow-cake-collaboration-with-breakfast
+
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
