@@ -171,8 +171,8 @@ Both of these changes were needed to prevent odd behavior if you closed/saved th
 V2.0 July 2021
 - Scene length is now calculated automatically from minsec table once start times are entered. No more manual tweaking of scripts!
 - Per-scene post FX switch is also availabe (in minsec table).
-- Delay times can also be enterd in min sec (no longer buried in a script)
-- You can still connect scenes to the main switch directly, but an even better way is to use the new replicator method provided. See the ReadMe within the component for full details.
+- Delay times can also be entered in the minsec table (no longer buried in a script).
+- You can still connect scenes to the main switch directly, but an even better way is to use the new replicator method provided. See the ReadMe within the component for full details. This is a very powerful option!
 - Added a timecode preview display node. This gives a running preview of time details that makes editing a bit easier. A switch is provided to turn this on/off.
 
 ## Credits:
