@@ -2,9 +2,6 @@
 
 ![RenderEngineGraphic300](https://user-images.githubusercontent.com/35905062/112176853-d51e7900-8bce-11eb-8e5a-9acaad7f4fa3.png)
 
-![RenderEngineGraphicV2300](https://user-images.githubusercontent.com/35905062/125460107-1db98228-fa5f-4715-a3c4-608c695c4461.png)
-
-
 Touchdesigner Render Engine by Jeremy dePrisco
 
 Intro video here:
@@ -159,14 +156,17 @@ Current released version 1.0 - March 2021
 This tool was built on the non-commercial version of Touchdesigner
 
 Latest version compatible: 
-2021.11180 on Mac on High Sierra
+2021.13610 on Mac on High Sierra
 
 ## Updates:
+
 V1.1 March 2021
 - Made minor change to make sure Exec CHOP was active so that audio starts as OFF and no movie recording happens until triggered.
 - Added an additional line to the main script to make sure audio is turned off upon completion of render.
 
 Both of these changes were needed to prevent odd behavior if you closed/saved the project in the middle of rendering or otherwise interrupted rendering (by pressing space bar) and then saved and reopened. Kind of a niche issue, but worth fixing.
+
+![RenderEngineGraphicV2300](https://user-images.githubusercontent.com/35905062/125460107-1db98228-fa5f-4715-a3c4-608c695c4461.png)
 
 V2.0 July 2021
 - Scene length is now calculated automatically from minsec table once start times are entered. No more manual tweaking of scripts!
@@ -177,7 +177,7 @@ V2.0 July 2021
 
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
-The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example.
+The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example. The V2 timecode preview display node includes code from a time code converter example posted by Greg Hermanovic on the TD forum in 2008.
 
 I also used the Zap Studio frame calculator during initial testing, and you may find it helpful as well:
 https://www.zapstudio.net/framecalc/
@@ -186,8 +186,6 @@ Also, I still think Magic Music Visualizer is a great, affordable tool. Their su
 https://magicmusicvisuals.com/
 
 The JDRenderEngine graphic was made with Adobe Spark.
-
-In V2, the timecode preview display node includes code from a time code converter example posted by Greg Hermanovic on the TD forum in 2008.
 
 ## LICENSING:
 Since we are artists/programmers and not lawyers, I trust you will give credit where credit is due and respect the licence:
