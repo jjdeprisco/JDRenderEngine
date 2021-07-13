@@ -159,12 +159,18 @@ Latest version compatible:
 2021.11180 on Mac on High Sierra
 
 ## Updates:
-V1.1
+V1.1 March 2021
 - Made minor change to make sure Exec CHOP was active so that audio starts as OFF and no movie recording happens until triggered.
 - Added an additional line to the main script to make sure audio is turned off upon completion of render.
 
 Both of these changes were needed to prevent odd behavior if you closed/saved the project in the middle of rendering or otherwise interrupted rendering (by pressing space bar) and then saved and reopened. Kind of a niche issue, but worth fixing.
 
+V2.0 July 2021
+- Scene length is now calculated automatically from minsec table once start times are entered. No more manual tweaking of scripts!
+- Per-scene post FX switch is also availabe (in minsec table).
+- Delay times can also be enterd in min sec (no longer buried in a script)
+- You can still connect scenes to the main switch directly, but an even better way is to use the new replicator method provided. See the ReadMe within the component for full details.
+- Added a timecode preview display node. This gives a running preview of time details that makes editing a bit easier. A switch is provided to turn this on/off.
 
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
@@ -177,6 +183,8 @@ Also, I still think Magic Music Visualizer is a great, affordable tool. Their su
 https://magicmusicvisuals.com/
 
 The JDRenderEngine graphic was made with Adobe Spark.
+
+In V2, the timecode preview display node includes code from a time code converter example posted by Greg Hermanovic on the TD forum in 2008.
 
 ## LICENSING:
 Since we are artists/programmers and not lawyers, I trust you will give credit where credit is due and respect the licence:
