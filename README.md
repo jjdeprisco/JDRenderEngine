@@ -2,7 +2,8 @@
 
 ![RenderEngineGraphic300](https://user-images.githubusercontent.com/35905062/112176853-d51e7900-8bce-11eb-8e5a-9acaad7f4fa3.png)
 
-![RenderEngineGraphicV2](https://user-images.githubusercontent.com/35905062/125459594-24730809-0c0b-4c23-ba99-0e019f3dce0f.png)
+![RenderEngineGraphicV2300](https://user-images.githubusercontent.com/35905062/125460107-1db98228-fa5f-4715-a3c4-608c695c4461.png)
+
 
 Touchdesigner Render Engine by Jeremy dePrisco
 
