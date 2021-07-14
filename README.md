@@ -19,6 +19,9 @@ https://youtu.be/_-jHfp5MnnQ
 Yellowcake (album by Breakfast)
 https://www.jeremydeprisco.net/blog/yellow-cake-collaboration-with-breakfast
 
+V2 Highlights
+https://youtu.be/vlgfvEC05_I
+
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
@@ -61,7 +64,7 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 1. Single-key render (after you've done some setup).
 2. Crucially, I provided a "panic button" so you can stop and re-render easily. Lots of under the hood scripting is taken care of so you can focus on the creative part!
 3. Scene and current time (in seconds) are provided via a heads-up display that can be used as a preview or rendered with the actual content. The default output for the Moviefileout TOP does not include this overlay, but it's easy to change.
-4. Scene time caluclations are handled by scripts.
+4. Scene time calculations are handled by scripts.
 5. Options for running test audio in a loop without rendering.
 6. Optional post FX section that can be controlled per scene. By default this is turned off, and the default effect is Edge.
 7. Everything is *independent* of the Touchdesigner timeline.
@@ -82,7 +85,7 @@ Scene 0 is not used, except as a Constant TOP set to black. Actual scene content
 Scene 1 is a title slide, which runs for 300 frames (5 sec) with no music.
 Scene 2 music starts
 Scene 10 is the credits slide, which runs for 300 frames (5 sec) by default.
-Scene 11 is a blackout slide, usually hardcoded for 1 sec.
+Scene 11 is a blackout slide, usually set for 1 sec.
 
 All of these parameters can be changed, but there is no UI yet to do so.
 
@@ -151,7 +154,7 @@ If you'd like to collaborate on this project, then feel free to get in touch as 
 
 ## Version Details:
 
-Current released version 1.0 - March 2021
+Current released version 2.0 - July 2021
 
 This tool was built on the non-commercial version of Touchdesigner
 
@@ -174,6 +177,7 @@ V2.0 July 2021
 - Delay times can also be entered in the minsec table (no longer buried in a script).
 - You can still connect scenes to the main switch directly, but an even better way is to use the new replicator method provided. See the ReadMe within the component for full details. This is a very powerful option!
 - Added a timecode preview display node. This gives a running preview of time details that makes editing a bit easier. A switch is provided to turn this on/off.
+- Highlight video here: https://youtu.be/vlgfvEC05_I
 
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
