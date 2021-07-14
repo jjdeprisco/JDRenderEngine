@@ -138,10 +138,13 @@ This is where most of the timing setup is done (manual entry). Preview screen sh
 
 ![rendersetup](https://user-images.githubusercontent.com/35905062/112192211-26356980-8bdd-11eb-9ed2-c86f1c10426a.png)
 
-This is where you would add your own content. Scene placeholders for demo only.
+In V1, this is where you would add your own content. Scene placeholders for demo only.
 
 <img width="968" alt="addcontent" src="https://user-images.githubusercontent.com/35905062/112192464-567d0800-8bdd-11eb-9271-9bdfc54b2043.png">
 
+In V2, a replicator aids in scene layout:
+
+![V2_SceneStructure](https://user-images.githubusercontent.com/35905062/125660274-33efd156-ef46-4052-9938-7a2cd3654f87.png)
 
 ## Enhancements:
 
