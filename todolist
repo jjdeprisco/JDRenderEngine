@@ -2,6 +2,7 @@ Potential Enhancements:
 
 (in no particular order)
 
+  Automatically match replicant scene name with name in minsec chart.
   Add more documentation on how to use the timer display.
   Containerize some of the more complex stuff to tuck it out of the way
   Reduce 2 timers to 1
