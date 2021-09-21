@@ -73,7 +73,7 @@ JDRenderEngine is really a utility that allows you to quickly audition changes a
 4. Scene time calculations are handled by scripts.
 5. Options for running test audio in a loop without rendering.
 6. Optional post FX section that can be controlled per scene. By default this is turned off, and the default effect is Edge.
-7. Everything is intentoinally *independent* of the Touchdesigner timeline.
+7. Everything is intentionally *independent* of the Touchdesigner timeline.
 
 More features are added from time to time, so see updates below.
 
