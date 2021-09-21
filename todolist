@@ -8,5 +8,8 @@ Potential Enhancements:
   Reduce 2 timers to 1
   Add per-scene PRE-FX pathway (this would be *in addition to* the current PostFX setup)
   Clarify clock elements on preview display
-  
-  If you like this tool, and would like to see it expanded, then please buy me a coffee: https://www.buymeacoffee.com/jeremydeprisco
+
+I'm already working on a "dumbed down" version of the JDRenderEngine.
+It will be called "JDMiniRender" and will have a slightly different feature set and use case. Stay tuned!
+
+If you like this tool, and would like to see it expanded, then please buy me a coffee: https://www.buymeacoffee.com/jeremydeprisco
