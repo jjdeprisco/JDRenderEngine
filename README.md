@@ -218,6 +218,8 @@ V3.0 Aug 2021
 	Blackout slide
 	Provided for a clean ending. Intended to always be the last slide.
 
+- See V3 demo: https://youtu.be/4-eD2Yh0VTs
+
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
 The OP Snippet for series segment timing was used, but a lot more work was done before (and after) I even discovered that example. The V2 timecode preview display node includes code from a time code converter example posted by Greg Hermanovic on the TD forum in 2008.
