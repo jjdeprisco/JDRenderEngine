@@ -195,6 +195,8 @@ V2.0 July 2021
 - Added a timecode preview display node. This gives a running preview of time details that makes editing a bit easier. A switch is provided to turn this on/off.
 - Highlight video here: https://youtu.be/vlgfvEC05_I
 
+![RenderEngineGraphicV3_300](https://user-images.githubusercontent.com/35905062/134185360-0545f244-b2fd-427b-9718-c204984dbe85.png)
+
 V3.0 Aug 2021
 - Added capability for pulsed and non-pulsed (free-running) videos in each scene.
 - Master scene now includes:
