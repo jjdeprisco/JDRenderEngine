@@ -25,6 +25,9 @@ https://youtu.be/vlgfvEC05_I
 V2 PostFX example:
 https://youtu.be/3rOBjpJ7p-Y
 
+V3 Pulsed video feature:
+https://youtu.be/4-eD2Yh0VTs
+
 ## Purpose:
 
 A quick way to render time-synced audio/visual content in Touchdesigner.
@@ -146,6 +149,11 @@ In V2, a replicator aids in scene layout:
 
 ![V2_SceneStructure](https://user-images.githubusercontent.com/35905062/125660274-33efd156-ef46-4052-9938-7a2cd3654f87.png)
 
+In V3, capability to run pulsed and non-pulsed videos within each scene was added. Some additional enhancements to scene setup were also added.
+
+<img width="847" alt="REV3_SceneFeatures" src="https://user-images.githubusercontent.com/35905062/134167729-417496fb-86e2-479f-8dc0-a451b009debf.png">
+
+
 ## Enhancements:
 
 I already have a list of possible enhancements:
@@ -160,12 +168,12 @@ If you'd like to collaborate on this project, then feel free to get in touch as 
 
 ## Version Details:
 
-Current released version 2.0 - July 2021
+Current released version 3.0 - Aug 2021
 
 This tool was built on the non-commercial version of Touchdesigner
 
 Latest version compatible: 
-2021.13610 on Mac on High Sierra
+2021.14360 on Mac on High Sierra
 
 ## Updates:
 
@@ -184,6 +192,27 @@ V2.0 July 2021
 - You can still connect scenes to the main switch directly, but an even better way is to use the new replicator method provided. See the ReadMe within the component for full details. This is a very powerful option!
 - Added a timecode preview display node. This gives a running preview of time details that makes editing a bit easier. A switch is provided to turn this on/off.
 - Highlight video here: https://youtu.be/vlgfvEC05_I
+
+V3.0 Aug 2021
+- Added capability for pulsed and non-pulsed (free-running) videos in each scene.
+- Master scene now includes:
+	Pulsed video (sample hourglass video)
+	This node always plays video from beginning.
+	Swap video out to add your own content.
+	
+	Non-pulsed video (sample frog video)
+	This video is free-running, and will just constantly loop.
+	Swap video out to add your own content.
+	Works best for long clips that are used as background.
+	
+	Title slide
+	Edit text as needed, or provide your own title content.
+	
+	Credit slide
+	Edit text as needed, or provide your own credit content.
+	
+	Blackout slide
+	Provided for a clean ending. Intended to always be the last slide.
 
 ## Credits:
 Special thanks to Dr. Matthew Ragan for his many tutorials. Dr. Ragan is one of (if not *the*) best Touchdesigner *teacher* hands-down.
